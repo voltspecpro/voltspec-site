@@ -3,51 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoltSpec Pro | O Canivete Suíço do Eletricista</title>
+    <title>VoltSpec Pro | O Sistema Definitivo para Eletricistas</title>
+    <meta name="description" content="Dimensionamento NBR 5410, Solar, Climatização e Laudos em PDF.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; overflow-x: hidden; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .feature-card { background: rgba(30, 41, 59, 0.6); border: 1px solid #334155; transition: all 0.3s ease; }
+        .feature-card:hover { transform: translateY(-5px); border-color: #eab308; box-shadow: 0 10px 30px -10px rgba(234, 179, 8, 0.2); }
+        .highlight-text { background: linear-gradient(to right, #eab308, #facc15); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
 </head>
-<body class="bg-slate-900 text-white font-sans">
+<body class="antialiased selection:bg-yellow-500 selection:text-slate-900">
 
-    <header class="container mx-auto p-6 flex justify-between items-center">
-        <div class="text-2xl font-bold text-yellow-400">⚡ VoltSpec Pro</div>
-        <a href="https://voltspec-pro.streamlit.app" target="_blank" class="text-sm font-semibold hover:text-yellow-400">Já sou cliente</a>
-    </header>
-
-    <main class="container mx-auto px-6 py-16 text-center">
-        <span class="bg-yellow-500 text-slate-900 px-3 py-1 rounded-full text-sm font-bold tracking-wide uppercase">Oferta para os 50 Primeiros</span>
-        <h1 class="text-5xl md:text-6xl font-extrabold mt-6 mb-6 leading-tight">
-            Pare de perder dinheiro com <br><span class="text-blue-400">orçamentos no papel.</span>
-        </h1>
-        <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-            O ecossistema digital definitivo para técnicos e eletricistas. Dimensionamento NBR 5410, viabilidade solar, climatização e laudos em PDF na palma da sua mão.
-        </p>
-        
-        <a href="https://wa.me/5534984127814?text=Olá!%20Quero%20garantir%20minha%20vaga%20de%20Membro%20Fundador%20no%20VoltSpec%20Pro%20por%20R$%20149,90/ano." 
-           class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg shadow-blue-500/50 transition-all">
-            🔥 QUERO SER MEMBRO FUNDADOR (R$ 149,90/ano)
-        </a>
-        <p class="mt-4 text-sm text-slate-400">Preço congelado para sempre. Teste por 7 dias.</p>
-    </main>
-
-    <section class="container mx-auto px-6 py-12">
-        <div class="grid md:grid-cols-3 gap-8 text-center">
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700">
-                <div class="text-4xl mb-4">📐</div>
-                <h3 class="text-xl font-bold mb-2">NBR 5410 de Bolso</h3>
-                <p class="text-slate-400">Calcule queda de tensão, bitola de cabos e ocupação de eletrodutos na hora, sem erro.</p>
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="text-3xl">⚡</span>
+                <span class="text-2xl font-bold text-white tracking-tight">VoltSpec <span class="text-yellow-500">Pro</span></span>
             </div>
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700">
-                <div class="text-4xl mb-4">📄</div>
-                <h3 class="text-xl font-bold mb-2">Laudos Profissionais</h3>
-                <p class="text-slate-400">Gere PDFs com os cálculos técnicos e a sua logomarca para enviar direto pro cliente.</p>
+            <a href="https://voltspec-pro.streamlit.app" target="_blank" class="text-sm md:text-base text-slate-300 hover:text-white font-semibold transition-colors border border-slate-700 px-4 py-2 rounded-lg hover:bg-slate-800">Entrar no Sistema</a>
+        </div>
+    </nav>
+
+    <section class="hero-gradient pt-32 pb-20 px-6 text-center min-h-screen flex flex-col justify-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block bg-yellow-500/10 border border-yellow-500/30 text-yellow-500 font-bold px-4 py-1.5 rounded-full text-xs md:text-sm mb-8 uppercase tracking-wider animate-pulse">
+                🔥 Vagas de Membro Fundador Abertas
             </div>
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700">
-                <div class="text-4xl mb-4">☀️</div>
-                <h3 class="text-xl font-bold mb-2">Climatização e Solar</h3>
-                <p class="text-slate-400">Estudos de viabilidade para energia fotovoltaica e cálculo exato de BTUs.</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+                O fim do orçamento no papel. <br>
+                <span class="highlight-text">Eleve o nível do seu serviço.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Um ecossistema digital completo no seu bolso. Faça dimensionamentos precisos na obra, comprove a economia para o cliente e gere laudos em PDF com a sua logo em segundos.
+            </p>
+            
+            <a href="https://wa.me/5534984127814?text=Olá!%20Quero%20garantir%20minha%20vaga%20de%20Membro%20Fundador%20no%20VoltSpec%20Pro%20por%20R$%2099,90/ano." target="_blank" class="inline-flex items-center justify-center bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-4 px-8 md:px-12 rounded-xl text-lg transition-transform transform hover:scale-105 shadow-[0_0_20px_rgba(234,179,8,0.4)]">
+                GARANTIR ACESSO POR R$ 99,90/ANO
+            </a>
+            <p class="mt-5 text-sm text-slate-500 flex items-center justify-center gap-2">
+                <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                Preço congelado. Atualizações e suporte vitalícios inclusos.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-slate-950">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Tudo o que você precisa em um só lugar</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">Chega de usar vários aplicativos soltos. O VoltSpec Pro integra todas as ferramentas do eletricista moderno.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-blue-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-blue-500/30">📐</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Conformidade NBR 5410</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Calcule a queda de tensão real, dimensione bitolas, disjuntores e defina a ocupação exata de eletrodutos. Acabe com o "eu acho que esse cabo aguenta" e trabalhe com dados de engenharia.
+                    </p>
+                </div>
+
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-yellow-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-yellow-500/30">📄</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Gerador de Laudos PDF</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Entregue propostas que o cliente não tem coragem de questionar. Gere relatórios completos em PDF com a sua logomarca, levantamento de cargas e materiais direto do celular.
+                    </p>
+                </div>
+
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-green-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-green-500/30">☀️</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Projetos Fotovoltaicos</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Feche negócios no mercado que mais cresce. Faça estudos rápidos de viabilidade, calcule a potência necessária (kWp) e o número de painéis ideais para a conta do seu cliente.
+                    </p>
+                </div>
+
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-cyan-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-cyan-500/30">❄️</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Climatização Precisa</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Chegou na obra e precisa dimensionar um ar-condicionado? Calcule a carga térmica exata (BTUs) considerando janelas, pessoas e aparelhos. Feche a instalação na mesma visita.
+                    </p>
+                </div>
+
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-emerald-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-emerald-500/30">💰</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Provador de Economia</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Prove para o cliente que o seu serviço "se paga". Mostre em Reais (R$) a economia exata ao trocar iluminação antiga por LED ou ar comum por tecnologia Inverter.
+                    </p>
+                </div>
+
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="text-4xl mb-4 bg-purple-500/20 w-16 h-16 flex items-center justify-center rounded-xl border border-purple-500/30">📦</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Gestão de Materiais</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Mantenha seu próprio catálogo atualizado. Cadastre preços, gere propostas de mão de obra + material de forma integrada e não perca horas fazendo listas no papel.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
+
+    <section class="py-20 px-6 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto bg-slate-800 rounded-3xl p-8 md:p-12 border border-yellow-500/20 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-yellow-500/10 blur-3xl"></div>
+            
+            <div class="text-center relative z-10">
+                <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-4 inline-block">Plano Exclusivo</span>
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">Membro <span class="text-yellow-500">Fundador</span></h2>
+                <p class="text-slate-300 text-lg mb-8">Essa oferta só é válida para os primeiros 50 usuários. Depois, o valor subirá para novos assinantes.</p>
+                
+                <div class="text-6xl font-black text-white mb-2">R$ 99,90<span class="text-2xl text-slate-400 font-medium">/ano</span></div>
+                <p class="text-yellow-500 font-semibold mb-8">Apenas R$ 8,32 por mês (menos que um café).</p>
+
+                <ul class="text-left max-w-md mx-auto space-y-4 mb-10">
+                    <li class="flex items-center gap-3 text-slate-200"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Acesso irrestrito a todas as abas atuais</li>
+                    <li class="flex items-center gap-3 text-slate-200"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <b>Geração Ilimitada</b> de Laudos em PDF</li>
+                    <li class="flex items-center gap-3 text-slate-200"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <b>Preço Congelado</b> vitalício nas renovações anuais</li>
+                    <li class="flex items-center gap-3 text-slate-200"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Direito a <b>todas as atualizações</b> futuras</li>
+                    <li class="flex items-center gap-3 text-slate-200"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Suporte direto com o desenvolvedor</li>
+                </ul>
+
+                <a href="https://wa.me/5534984127814?text=Olá!%20Quero%20garantir%20minha%20vaga%20de%20Membro%20Fundador%20no%20VoltSpec%20Pro%20por%20R$%2099,90/ano." target="_blank" class="block w-full md:w-auto md:inline-block bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-4 px-12 rounded-xl text-lg transition-transform transform hover:scale-105 shadow-lg">
+                    CHAMAR NO WHATSAPP E ASSINAR AGORA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-10 text-center border-t border-slate-900">
+        <div class="container mx-auto px-6">
+            <div class="text-2xl font-bold text-white mb-4">VoltSpec <span class="text-yellow-500">Pro</span></div>
+            <p class="text-slate-500 text-sm mb-2">Desenvolvido no trecho, para quem está no trecho. Araxá - MG.</p>
+            <p class="text-slate-600 text-xs">© 2026. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
